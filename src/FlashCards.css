@@ -1,0 +1,39 @@
+  /* Card buttons */
+  .card-button {
+    width: 700px;
+    height: 300px;
+    padding: 20px;
+    text-align: center; /* Center the text horizontally */
+    display: flex; /* Use flexbox for vertical centering */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    
+    
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .card-button:hover {
+    background-color: #fffda1;
+  }
+
+  .card-active {
+    background-color: #fffb26;
+  }
+
+  .title-style {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  
+  }
